@@ -84,7 +84,7 @@ const CRUD = () => {
           body: JSON.stringify(emailData),
           headers: {
             "Content-Type": "application/json",
-            "Authorization": "token live_Jaeqx7StalsjhGe/F/rGb82nUokE7ykf", // Tu token de Enveloop
+            "Authorization": "", // Tu token de Enveloop
           },
         })
           .then(response => response.json())
