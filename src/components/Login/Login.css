@@ -1,0 +1,104 @@
+:root {
+  --color-principal: #0c1e35;
+  --color-verde: #4abc46;
+  --color-blanco: #ffffff;
+  --color-gris-claro: #d3d3d3;
+}
+
+/* Estilos generales para el body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa al menos el 100% de la altura de la ventana */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Fuente por defecto */
+  }
+  
+.login-container {
+  flex: 1; /* Hace que el contenido principal ocupe el espacio restante */
+}
+  
+  /* Estilos para el footer */
+footer {
+  display: flex;
+  text-align: center; /* Centrar contenido verticalmente */
+  background-color: #0a192f; /* Fondo personalizado */
+  padding: 10px; /* Espaciado interno */
+  width: 100%;
+  margin-top: auto;
+}
+  
+  /* Estilos adicionales para el formulario de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+  
+  .login-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-login,
+  .btn-register {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-login {
+    background-color: #4abc46;
+    color: #ffffff;
+  }
+  
+  .btn-register {
+    background-color: #0c1e35;
+    color: #ffffff;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .login-face {
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  .login-face:hover {
+    background-color: var(--color-principal);
+  }
+  
